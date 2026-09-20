@@ -1,0 +1,159 @@
+# E-Commerce Sales & Customer Shopping Analysis
+
+## 📌 Project Overview
+
+This project analyzes customer shopping transaction data to understand sales performance, customer purchasing behavior, product category performance, payment methods, and shopping mall performance.
+
+The project uses **Tableau** to transform raw transactional data into interactive visualizations and dashboards.
+
+---
+
+## 🎯 Project Objectives
+
+* Analyze overall sales performance
+* Understand customer purchasing behavior
+* Analyze sales by product category
+* Compare sales across shopping malls
+* Analyze payment method usage
+* Study customer demographics
+* Identify sales trends over time
+* Create an interactive Tableau dashboard
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Tableau** – Data visualization & dashboard development
+* **CSV** – Dataset
+* **Data Cleaning & Preparation**
+* **Calculated Fields**
+* **Data Analysis**
+* **Data Visualization**
+
+---
+
+## 📊 Dataset
+
+The dataset contains approximately **99,457 customer shopping transactions**.
+
+### Key Columns
+
+| Column         | Description                               |
+| -------------- | ----------------------------------------- |
+| Invoice Number | Unique invoice/transaction number         |
+| Customer ID    | Unique customer identifier                |
+| Gender         | Customer gender                           |
+| Age            | Customer age                              |
+| Category       | Product category                          |
+| Quantity       | Number of products purchased              |
+| Price          | Price per product                         |
+| Sales          | Calculated sales amount                   |
+| Payment Method | Method used for payment                   |
+| Invoice Date   | Transaction date                          |
+| Shopping Mall  | Shopping mall where the purchase occurred |
+
+---
+
+## 🧮 Data Calculation
+
+A calculated **Sales** column was created using:
+
+```text
+Sales = Quantity × Price
+```
+
+This column is used to analyze transaction-level sales performance.
+
+---
+
+## 📈 Dashboard Analysis
+
+The Tableau dashboard includes analysis of:
+
+* Total Sales
+* Total Quantity
+* Category-wise Sales
+* Shopping Mall-wise Sales
+* Payment Method Analysis
+* Customer Demographics
+* Sales Trends
+* Product Category Performance
+
+---
+
+## 🔍 Business Questions
+
+The project focuses on answering the following questions:
+
+1. What is the overall sales performance?
+2. Which product categories generate the most sales?
+3. Which shopping malls contribute the highest sales?
+4. Which payment methods are commonly used?
+5. How does purchasing behavior vary across customer demographics?
+6. How do sales change over time?
+7. Which categories have higher purchase quantities?
+
+---
+
+## 📊 Tableau Dashboard
+
+The dashboard provides an interactive view of customer shopping and sales data.
+
+Users can explore the data using different dimensions such as:
+
+* Product Category
+* Gender
+* Age
+* Payment Method
+* Shopping Mall
+* Date
+
+---
+
+## 📁 Project Structure
+
+```text
+E-Commerce-Sales-Analysis/
+│
+├── data/
+│   └── customer_shopping_data.csv
+│
+├── tableau/
+│   └── sales.twb
+│
+├── screenshots/
+│   ├── dashboard.png
+│   └── sales_analysis.png
+│
+└── README.md
+```
+
+---
+
+## 🚀 Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+* Data Analysis
+* Data Preparation
+* Tableau
+* Dashboard Development
+* Calculated Fields
+* KPI Analysis
+* Data Visualization
+* Business Problem Solving
+* Data Storytelling
+
+---
+
+## 💡 Project Outcome
+
+The project converts raw customer transaction data into an interactive analytical dashboard that can be used to explore sales performance, customer behavior, product categories, payment methods, and shopping mall performance.
+
+---
+
+## 👩‍💻 Author
+
+**Vaishali Mistry**
+
+Aspiring Data Analyst | SQL | Python | Excel | Power BI | Tableau
